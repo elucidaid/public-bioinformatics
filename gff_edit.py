@@ -1,4 +1,4 @@
-with open("/Users/ebrahimih/Desktop/Schizosaccharomyces_pombe.ASM294v2.30.gff3", 'r') as file, open('/Users/ebrahimih/Desktop/new.gff', 'w') as output_file:
+with open("/Schizosaccharomyces_pombe.ASM294v2.30.gff3", 'r') as file, open('new.gff', 'w') as output_file:
 	for line in file:
 		columns = line.split("\t")
 		if columns[0]=="II":
